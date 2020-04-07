@@ -1,18 +1,5 @@
 # RSA--
-易加密数据，易解密。创建目的，方便私密消息传送。缺点：未优化报错处理
 package main
-import (
-	"crypto/rand"
-	"crypto/rsa"
-	"crypto/x509"
-	"encoding/hex"
-	"encoding/pem"
-	"fmt"
-	"github.com/lxn/walk"
-	"github.com/lxn/walk/declarative"
-	"os"
-)
-//1.//展示加解密界面
 type Window	 interface {
 	showWindow()
 }
